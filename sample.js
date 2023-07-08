@@ -21,4 +21,6 @@ const user = {
     pass  :"pass"
 }
 const {email} = user;
+const {email: moriemail} = user
+//moriemail で命名可能。
 
