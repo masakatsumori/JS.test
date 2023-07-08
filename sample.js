@@ -17,10 +17,27 @@ const [gold ,silver , bronze] = scores;
 
 const user = {
     email :"morimori@mori",
-    Id    :"1",
+    id    :"1",
     pass  :"pass"
 }
 const {email} = user;
 const {email: moriemail} = user
 //moriemail で命名可能。
 
+
+//関数
+
+// function set (user){
+//     return `${user.id}  ${user.pass}`
+// }
+
+// function set (user){
+//     const { id , pass} =user;
+//     return `${id}  ${pass}`
+// }
+
+function set ({ id , pass}){
+    return `${id}  ${pass}`
+}
+
+//上記3つは全部同じ
